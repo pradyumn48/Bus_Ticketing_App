@@ -1,0 +1,10 @@
+
+  
+  <app-header *ngIf="showHead"></app-header>
+
+          
+  <router-outlet></router-outlet>
+  
+
+
+<router-outlet *ngIf="showHead" name="footerRouter"></router-outlet>
